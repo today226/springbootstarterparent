@@ -24,6 +24,8 @@ spring:
         view:
           prefix: /WEB-INF/view/
           suffix: .jsp
+    webservice:
+              intro: /WEB-INF/view/index.jsp
 # MyBatis
 mybatis:
     mapper-locations: classpath:/mapper/**/*.xml
