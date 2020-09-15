@@ -1,0 +1,31 @@
+#LOGGING
+#logging:
+    #config: classpath:logback.xml
+server:
+    port: 8080
+    compression:
+        enabled: true
+        mime-types: application/json,application/xml,text/html,text/xml,text/plain
+#spring config
+spring:
+    aop:
+        auto: true
+    datasource: 
+        url: jdbc:mysql://192.168.0.16:3306/test?zeroDateTimeBehavior=convertToNull&useUnicode=yes&characterEncoding=UTF-8&connectTimeout=2000&autoReconnect=true&serverTimezone=UTC&useSSL=false
+        driverClassName: com.mysql.jdbc.Driver
+        username: root
+        password: 1234      
+ 
+#    freemarker :
+#        suffix : .ftl
+#        templateLoaderPath: classpath*:templates/
+#        preferFileSystemAccess: false
+    mvc:
+        view:
+          prefix: /WEB-INF/view/
+          suffix: .jsp
+# MyBatis
+mybatis:
+    mapper-locations: classpath:/mapper/**/*.xml
+    type-aliases-package: com.ndms.domain
+ 

@@ -1,0 +1,14 @@
+ .ra_col_gray{background: #ccc;}
+ .ra_col_lblue{background: #B2CCFF;}
+.raHiredsmsPhotoSeal{display:"none";}
+.ra_spaceR20{margin-right: 20px;}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{background-color: #e9e9ea;border-color: #d8d9de;}
+.ui-state-default .ui-icon {background-image: url("./jqGrid/images/ui-icons_888888_256x240.png");}
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon {background-image: url("./jqGrid/images/ui-icons_454545_256x240.png");}
+.ui-state-active .ui-icon {background-image: url("./jqGrid/images/ui-icons_454545_256x240.png");}
+.clr-table-gr{border-top: 2px solid #72c274;}
+.clr-table-gr th{background-color: #f1f6f6;}
+.popContent h2{color: #3c793d;background-image: url("../../images/bullet_green.png");}
+.raphoto_spacetb{margin-top:4px;margin-bottom:4px;}
+label.btn-gray.btn-inTableRa{line-height: 1em;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}
+.btn-gray.btn-inTableRa{padding: 6px 4px;color: #4c5660;font-weight: normal;font-size: 11px;background-color: #f5f6f7;border: 1px solid #9c9fa5;cursor:pointer;}
